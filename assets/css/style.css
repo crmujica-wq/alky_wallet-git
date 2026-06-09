@@ -1,0 +1,60 @@
+/* COLORES EN FORMATO RGB */
+
+/* ENCABEZADO */
+header h1.text-primary {
+    color: rgb(108, 92, 231) !important;
+    font-weight: 700;
+}
+
+/* BOTONES */
+.btn-primary {
+    background-color: rgb(108, 92, 231) !important;
+    border-color: rgb(108, 92, 231) !important;
+}
+
+/* BOTONES ENFOQUE */
+.btn-primary:hover {
+    background-color: rgb(86, 73, 192) !important;
+    border-color: rgb(86, 73, 192) !important;
+}
+
+/* ESTILOS GENERALES */
+body {
+    background-color: rgb(253, 253, 253);
+    background-image: linear-gradient(to right, rgb(253, 253, 253), rgb(240, 235, 255)); 
+}
+/* TRANSACCIONES */
+.list-group-item {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+/* FORMULARIOS */
+form {
+    padding: 1.5rem;
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list-group-item {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+/*  */
