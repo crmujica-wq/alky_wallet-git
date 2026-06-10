@@ -57,7 +57,6 @@ PARA SUBIR Y ENLAZAR NUEVOS CAMBIOS A GITHUB
 git add .
 git status
 git commit -m "comentario de cambios"
-git log
 git log --oneline
 git push : se termiina de enlazar con github
 ----------------------------------------------
@@ -111,3 +110,6 @@ git remote -v
 git branch -M main
 git push -u origin main
 
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
