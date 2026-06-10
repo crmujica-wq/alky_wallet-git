@@ -1,0 +1,62 @@
+CONFIGURACION DE CREDENCIALES GLOBAL GIT
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+INCIAR UN REPOSITORIO LOCAL CON GIT/SOLO SE EJECUTA UNA VEZ POR POREYECTO
+git init
+
+COMANDOS DEL FLUJO DE TRABAJO
+git add . / git add --all / git addd -a / git add index.html
+git commit -m "Mensaje explicativo, breve, etc. sobre los cambios realizados"
+
+COMANDOS PARA VISUALOZAR ESTADOS Y REGISTROS DE VERSIONES
+
+git status : muestra el estado de área de preparación y  stage area
+git log :permite ver el registro /historial de versiones
+git restore : restaurar archivos modificados, volver atras.
+git log --onrlinr : ver registro de commits en una línea
+
+
+VER DIFERENCIAS ENTRE VERSIONES / RAMAS / ETC
+git diff (ramas o hash de commit)
+
+CAMBIO DE RAMAS / VERSIONES
+
+git checkout (ramas //hash commit)
+
+TRABAJANDO CON RAMAS (BRUNCH)
+
+git branch : listar ramas e indica la rama actual
+git branch [nombre/rama] : permite crear una nueva rama 
+ejemplo : git branch feature/contactos
+
+git checkout -b feature/contactos :nos cambia a la nueva rama recien inciada
+
+git branch -d : eliminar rama
+
+FUSIONAR RAMA CON MARGE
+
+git marge [rama]
+
+ENLAZAR NUESTRO REPOSITORIO CON GITGUB
+git remote add origin https://github.com/crmujica-wq/alky_wallet-git.git
+
+COMANDO DE VERIFICACION
+
+git remote -v
+git branch -M main
+git push -u origin main
+
+PARA CLONAR PROYECTO DESDE GITHUB
+
+git clone 
+
+PARA SUBIR Y ENLAZAR NUEVOS CAMBIOS A GITHUB
+
+git add .
+git status
+git commit -m "comentario de cambios"
+git log
+git log --oneline
+git push : se termiina de enlazar con github
